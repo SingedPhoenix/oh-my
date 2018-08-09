@@ -1,3 +1,11 @@
+.jumbotron{
+ background-image: linear-gradient(to bottom, #366032, white 90%);
+ text-align: center;
+ color: white;
+ height: 400px;
+}
+
+
 #lions {
   display: none;
 }
@@ -16,8 +24,9 @@
 
 #animal-info {
   margin-top: 40px;
+
 }
 
-.lion-img {
+.animal-img {
   margin-bottom: 25px;
 }
