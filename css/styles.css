@@ -13,3 +13,11 @@
 #sulu {
   display: none;
 }
+
+#animal-info {
+  margin-top: 40px;
+}
+
+.lion-img {
+  margin-bottom: 25px;
+}

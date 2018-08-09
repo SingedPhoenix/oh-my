@@ -20,17 +20,50 @@
 
   <div class="container">
 
-    <form id="zoo">
-          <div class="form-group">
-            <label for="wizard">Enter the name of your favorite animal</label>
-            <input id="wizard" class="form-control" type="text" placeholder="Choose between lions, tigers, bears, or oh my...">
-          </div>
+    <form id="animals">
+            <div class="radio">
+              <label>
+                <input type="radio" name="animal" value="lion" checked>
+                Lion
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="animal" value="tiger">
+                Tiger
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="animal" value="bear">
+                Bear
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="animal" value="ohmy">
+                Oh My
+              </label>
+            </div>
+            <button type="submit" class="btn btn-danger">Go!</button>
+          </form>
 
-          <button type="submit" class="btn">submit</button>
-    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="animal-info">
 
     <div id="lions" class="row">
-      <img src="" alt="">
+      <img class="img-fluid lion-img rounded mx-auto d-block" src="img/lion.jpg" alt="">
       <h2>African Lion</h2>
       <p></p>
       <p></p>
@@ -61,7 +94,7 @@
       <a href=""></a>
     </div>
 
-
+</div>
 
 
 
